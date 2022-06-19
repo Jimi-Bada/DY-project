@@ -707,6 +707,7 @@
             }
             .header{
                 margin: 2rem auto;
+                padding: 0;
             }
             .header nav{
                 display: none;
@@ -806,4 +807,10 @@
             }
 
            
+        }
+        @media screen and (min-width: 320px)and (max-width:376px) {
+            /* body{
+                width: 106%;
+            } */
+            
         }
