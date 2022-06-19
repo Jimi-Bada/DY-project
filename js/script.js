@@ -139,7 +139,7 @@ function removeActive2(){
     restoreHoverLine2();
     removeDoubleLine3();
     restoreHoverLine2();
-    // restoreHoverLine3();
+    restoreHoverLine1();
     restoreHoverLine4();
     restoreHoverLine5();
     restoreHoverLine6();
@@ -158,7 +158,7 @@ function removeActive3(){
     removeDoubleLine4();
     restoreHoverLine2();
     restoreHoverLine3();
-    // restoreHoverLine4();
+    restoreHoverLine1();
     restoreHoverLine5();
     restoreHoverLine6();
     restoreHoverLine7();
@@ -176,7 +176,7 @@ function removeActive4(){
     restoreHoverLine2();
     restoreHoverLine3();
     restoreHoverLine4();
-    // restoreHoverLine5();
+    restoreHoverLine1();
     restoreHoverLine6();
     restoreHoverLine7();
 }
@@ -194,7 +194,7 @@ function removeActive5(){
     restoreHoverLine3();
     restoreHoverLine4();
     restoreHoverLine5();
-    // restoreHoverLine6();
+    restoreHoverLine1();
     restoreHoverLine7();
 }
 function removeActive6(){
@@ -212,7 +212,7 @@ function removeActive6(){
     restoreHoverLine4();
     restoreHoverLine5();
     restoreHoverLine6();
-    // restoreHoverLine7();
+    restoreHoverLine1();
 }
 // removeDoubleLine7();
 
