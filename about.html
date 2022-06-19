@@ -6,88 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DY project</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/e6ed3de574.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link href="http://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
 
 </head>
 
 <body>
+    <a id="back-to-top" class="show" style="display: block;">
+        <i class="bi bi-arrow-up-short scroll" aria-hidden="true"></i>
+    </a>
     <section class="header">
+       
         <div class="branding">
             <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-logo.png" alt="company logo">
             <nav>
                 <ul>
                     <li><a href="#showcase">Home</a></li>
-                    <li><a class= "active" href="#about">About</a></li>
-                    <li><a class= "active" href="#works">Work</a></li>
-                    <li><a class= "active" href="#awards">Awards</a></li>
-                    <li><a class= "active" href="#ongoing">Ongoing</a></li>
-                    <li><a class= "active" href="#news">News</a></li>
-                    <li><a class= "active" href="#contact">Contact</a></li>
+                    
+                    <li class="active"><a href="#about">About</a></li>
+                    <li><a id="li" href="#works">Work</a></li>
+                    <li><a  id="li" href="#awards">Awards</a></li>
+                    <li><a id="li"  href="#ongoing">Ongoing</a></li>
+                    <li><a  id="li" href="#news">News</a></li>
+                    <li><a  id="li" href="#contact">Contact</a></li>
                     <i class="fa fa-search" aria-hidden="true"></i>
 
                 </ul>
             </nav>
         </div>
+        <div class="phone">
+            <div class="phone-header">
+                <input class="menu-btn" type="checkbox" id="menu-btn">
+                <label class="menu-icon" for="menu-btn"><i class="fa-solid fa-bars"></i><span class="nav-icon"></span></label>
+                <ul class="menu">
+                    <li id="list" ><a href="#">Home</a> </li>
+                   <div class="outline-divider"></div>
+                    <li id="list" ><a href="#">About</a></li>
+                    <div class="outline-divider"></div>
+                    <li id="list" ><a href="#">Work</a></li>
+                    <div class="outline-divider"></div>
+                    <li id="list" ><a href="#">Awards</a></li>
+                    <div class="outline-divider"></div>
+                    <li id="list" ><a href="#">Ongoing</a></li>
+                    <div class="outline-divider"></div>
+                    <li id="list" ><a href="#">News</a></li>
+                    <div class="outline-divider"></div>
+                    <li id="list" ><a href="#">Contact</a></li>
+                    <div class="outline-divider"></div>
+                </ul>
+            </div>
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
     </section>
+
+
+
     <section id="showcase">
-        <div class="container">
+        <div class="showcase-container">
             <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-rev-img-01.png" alt="">
             <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-rev-img-02-1.png" alt="">
             <div class="image">
                 <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-rev-img-03-1.png" alt="">
             </div>
+        </div>
+        <div class="get-in-touch">
             <h1>NE photosession ceo<span> text photo</span> </h1>
-            <div class="get-in-touch">
-                <p>GET IN TOUCH <span> WITH US: <a
-                            href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D" target="_blank">twitter,</a><a
-                            href="https://www.instagram.com/challenge/?next=/accounts/login/" target="_blank"> instagram,</a><a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"> facebook</a></span></p1>
+            <p>GET IN TOUCH <span> WITH US:
+                    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                        target="_blank">twitter,</a>
+                    <a href="https://www.instagram.com/challenge/?next=/accounts/login/" target="_blank">instagram,</a>
+                    <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">facebook</a></span></p>
+        </div>
+
+
+
+        <div class="service">
+            <div class="services">
+                <h2>01.</h2>
+                <h3>all projects preview</h3>
+                <p>working/ project</p>
             </div>
-
-
-
-            <div class="service">
-                <div class="first-service">
-                    <h2>01.</h2>
-                    <h3>all projects <br> preview</h3>
-                    <p>working/ project</p>
-                </div>
-                <div class="second-service">
-                    <h2>02.</h2>
-                    <h3>new website <br> design</h3>
-                    <p>working/ project</p>
-                </div>
-                <div class="third-service">
-                    <h2>03.</h2>
-                    <h3>custom web <br> design</h3>
-                    <p>working/ project</p>
-                </div>
-                <div class="fourth-service">
-                    <h2>04.</h2>
-                    <h3>truly creative <br> project</h3>
-                    <p>working/ project</p>
-                </div>
+            <div class="services">
+                <h2>02.</h2>
+                <h3>new website design</h3>
+                <p>working/ project</p>
+            </div>
+            <div class="services">
+                <h2>03.</h2>
+                <h3>custom web design</h3>
+                <p>working/ project</p>
+            </div>
+            <div class="services">
+                <h2>04.</h2>
+                <h3>truly creative project</h3>
+                <p>working/ project</p>
             </div>
         </div>
+
     </section>
     <section id="about">
         <div class="container">
             <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-07.png" alt="">
-            <div class="webtheme">
-                <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-01.png" alt="">
-            </div>
-            <div class="textabout">
+            <div class="theme-container">
+                <div class="webtheme">
+                    <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-01.png" alt="">
+                </div>
+                <div class="textabout">
                     <h3>STEP INTO THE INSPIRATION FOR A NEW WEB THEME</h3>
-                    <p>Lorem ipsum dolor sit amet, cosetetura dips cing elit, sed do eiusmod tempor incididunt ut labore et
+                    <p>Lorem ipsum dolor sit amet, cosetetura dips cing elit, sed do eiusmod tempor incididunt ut labore
+                        et
                         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud etum sum exercitation ullamco laboris
                         dunt ut
                         labore et dolore quis.</p>
                     <button type="submit" class="button_1">ENTER</button>
+                </div>
             </div>
-           
         </div>
     </section>
     <section id="works">
-        <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-03.png" alt="">
+        <img class="worksimg" src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-03.png"
+            alt="">
         <div class="work-container">
             <div class="works-container">
                 <div class="overlay">
@@ -181,9 +220,9 @@
                 <h3>ONGOING SESSION CEO TEXT PHOTO</h3>
                 <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus
                     varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur
-                    ullamcorper ultricies nisi. Nam eget dui. Donec sodales sagittis.</p>
+                    ullamcorper ultricies nisi. Nam eget dui. Donec sodales sagittis.
+                </p>
                 <button type="submit" class="button_1">ENTER</button>
-
             </aside>
             <div class="ongoingtheme">
                 <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-02.png" alt="">
@@ -191,7 +230,7 @@
         </div>
     </section>
     <section id="news">
-        <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-05.png" alt="">
+        <img class="nimage" src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-img-05.png" alt="">
         <div class="new-container">
             <div class="news-container">
                 <img src="https://bridge301.qodeinteractive.com/wp-content/uploads/2019/12/h1-blog-img-01-768x693.jpg"
@@ -220,46 +259,57 @@
                 <h>SEND ME AN <br>EMAIL</h>
                 <div class="mail">
                     <label id="email"></label>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="Email" required="">
+                    <input type="submit" value="" class="-form-control">
+
+                    <input type="email" name="email" id="email" class="form-control" placeholder="EMAIL" required="">
 
                 </div>
-
+                <div class="separator"></div>
                 <p>Lorem ipsum dolor sit amet</p>
             </div>
 
             <div class="contact-text">
-                <h6>GET IN TOUCH</h6>
-                <p>Phone: +123 4567 8990 </p>
-                <div class="separator"></div>
-                <p> bridge@example.com <br></p>
-                <div class="separator"></div>
-                <p>4454 Duke Lane, New York</p>
-            </div>
-            <div class="contact-text">
-                <h6>FIND MORE</h6>
-                <p>bridge1@example.com
-                    <br>
-                </p>
-                <div class="separator"></div>
-                <p>bridge2@example.com
-                    <br>
-                </p>
-                <div class="separator"></div>
-                <p> bridge3@example.com</p>
-            </div>
-            <div class="contact-text">
-                <h6>FOLLOW US</h6>
+                <div class="box-1">
+                    <h6>GET IN TOUCH</h6>
+                    <p>Phone: +123 4567 8990 </p>
+                    <div class="separator"></div>
+                    <p> bridge@example.com <br></p>
+                    <div class="separator"></div>
+                    <p>4454 Duke Lane, New York</p>
+                </div>
 
-                <p>Twitter
-                    <br>
-                </p>
-                <div class="separator"></div>
-                <p> Instagram
-                    <br>
-                </p>
-                <div class="separator"></div>
-                <p> Facebook
-                </p>
+            </div>
+            <div class="contact-text">
+                <div class="box-2">
+                    <h6>FIND MORE</h6>
+                    <p>bridge1@example.com
+                        <br>
+                    </p>
+                    <div class="separator"></div>
+                    <p>bridge2@example.com
+                        <br>
+                    </p>
+                    <div class="separator"></div>
+                    <p> bridge3@example.com</p>
+                </div>
+
+            </div>
+            <div class="contact-text">
+                <div class="box-3">
+                    <h6>FOLLOW US</h6>
+
+                    <p>Twitter
+                        <br>
+                    </p>
+                    <div class="separator"></div>
+                    <p> Instagram
+                        <br>
+                    </p>
+                    <div class="separator"></div>
+                    <p> Facebook
+                    </p>
+                </div>
+
 
             </div>
         </div>
@@ -268,12 +318,12 @@
 
 
     </section>
-    
+
     <footer>
         <p> &copy; copyright qode interactive</p>
     </footer>
 
-
+<script src="js/script.js"></script>
 </body>
 
 </html>

@@ -51,8 +51,11 @@
     .active{
         text-decoration: underline;
     }
+    .active::after{
+      background: #fff;
+    }
    .header{
-    padding: 0 45px;
+    padding:2rem 45px;
     width: 100%;
     display: inline-block;
     margin: 0;
@@ -63,6 +66,7 @@
    .header nav{
     float: right;
     }
+    
    /* Harmburger*/
    .phone{
    display: none;
@@ -123,7 +127,7 @@
 .phone .fa{
     float: right;
     position: absolute;
-    top: 37px;
+    top: 45px;
     right: 37px;
     font-size: 60px;
 }
@@ -142,9 +146,9 @@
   .branding li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0.5rem 1.75rem 0 20px;
     text-transform: uppercase;
-    font-size:16px ;
+    font-size:0.875rem ;
     font-weight: bold;
    }
   .branding a{
@@ -320,7 +324,7 @@
             position: relative;
           }
         .works-container img{
-            width: 370px;
+            width:370px;
             object-fit:cover;
             object-position:bottom;
             padding: 8px;
@@ -478,7 +482,7 @@
         }
         .new-container{
             display: flex;
-            max-width: 1200px;
+            max-width: 1152px;
             width: 100%;
             justify-content: center;
             align-items: center;
@@ -629,7 +633,7 @@
             line-height: 27px;
             font-style: italic;
             font-weight: 300;
-            letter-spacing: .5px;
+            letter-spacing: 0;
             text-transform: none;
             margin: 0px;
             margin-right: 20px;
@@ -756,8 +760,8 @@
            /* .work-container{
                margin: 0;
            } */
-           .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container{
-               margin: 0!important;
+           .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+               margin: 0 auto!important;
                
            }
            .awards-list{
@@ -778,4 +782,33 @@
                font-size: 1.5rem;
                width: 20ch;
             }
+            .textongoing h3{
+                width: 15ch;
+                line-height: 2.75rem;
+                font-size: 2.5rem;
+                font-family: poppins, sans-serif;
+                text-align: end;
+            }
+            .textongoing p{
+                width: 39ch;
+                color: #686868;
+                font-family: 'Roboto', sans-serif;
+                font-size: 16px;
+                line-height: 27px;
+                font-style: normal;
+                font-weight: 300;
+                text-align: end;
+                margin: 2rem 0 2rem 2rem;
+            }
+            .button_1{
+                margin: 1rem auto 1rem 12.5rem;
+            }
+            .news-container h5{
+                padding: 2rem 0;
+            }
+            .news-container p{
+                padding-bottom: 4rem;
+            }
+
+           
         }
