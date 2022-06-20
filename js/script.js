@@ -214,6 +214,9 @@ function removeActive6(){
     restoreHoverLine6();
     restoreHoverLine1();
 }
+function closeHarmburger(){
+    document.querySelector
+}
 // removeDoubleLine7();
 
 

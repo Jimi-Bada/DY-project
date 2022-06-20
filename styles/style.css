@@ -701,11 +701,13 @@
                 font-size: 8vh;
             }
         } */
-        @media screen and (max-width: 769px) {
+        @media screen and(min-width:426px) and (max-width: 769px) {
             .phone{
                 display: contents;
             }
-            .phone .fa{}
+            .phone .fa{
+                left: 103rem;
+            }
             .header{
                 margin: 2rem auto;
                 padding: 0;
@@ -716,6 +718,10 @@
             .branding{
                 display: flex;
                 justify-content: center;
+                width: 100rem;
+            }
+            .branding img{
+                width: 30%;
             }
             .image{
                 left: 73rem;
@@ -727,7 +733,6 @@
             .phone{
                 display: contents;
             }
-            .phone .fa{}
             .header{
                 margin: 2rem auto;
                 padding: 0;
