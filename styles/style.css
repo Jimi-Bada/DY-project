@@ -85,7 +85,7 @@
 }
 .phone-header ul a{
     display: block;
-    padding: 1rem;
+    padding: 1.5rem;
     text-decoration: none;
     color: #000;
     padding-left: 0;
@@ -701,12 +701,25 @@
                 font-size: 8vh;
             }
         } */
-        @media screen and(min-width:426px) and (max-width: 769px) {
+        @media screen and (min-width:426px) and (max-width: 769px) {
             .phone{
                 display: contents;
             }
             .phone .fa{
                 left: 103rem;
+            }
+            .fa-bars{
+                font-size: 2.5rem;
+                left: 4rem;
+            }
+            .phone-header ul {
+                font-size: 2.5rem;
+                margin-top: 2rem;
+                left: 4rem;
+        
+            }
+            .phone-header .menu-btn:checked ~ .menu {
+                width: 96rem;
             }
             .header{
                 margin: 2rem auto;
@@ -718,16 +731,24 @@
             .branding{
                 display: flex;
                 justify-content: center;
-                width: 100rem;
+                width: 103rem;
             }
             .branding img{
                 width: 30%;
             }
             .image{
                 left: 73rem;
+                top: 66vh;
             }
+            #showcase {
+                margin-top: 20rem!important;
+            }
+            .showcase-container img{
+                width: 200%;
+           margin-left: 6rem!important;
+            }
+            
 
-           
         }
         @media screen and (max-width: 426px) {
             .phone{
