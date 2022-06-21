@@ -5,13 +5,18 @@
     scroll-behavior: smooth
 }
 @import url('http://fonts.cdnfonts.com/css/roboto');
-   body{
+  html, body{
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     color: black;
     line-height: 1.5;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  
     }
     #back-to-top.show {
         opacity: 1;
@@ -115,15 +120,17 @@
 }
 .phone-header .menu-btn:checked ~ .menu{
     max-height: 818px;
-    width: 24rem;
+    max-width: 40rem;
+    padding: 0!important;
 
 }
 .phone .fa{
     float: right;
     position: absolute;
-    top: 45px;
+    top: 0;
     right: 37px;
     font-size: 60px;
+
 }
 .phone-header .menu-btn:checked ~ .menu-icon .nav-icon{
  background: transparent;
@@ -187,9 +194,8 @@
   
   .image{
       z-index: 2;
-      position: absolute;
-      top: 15vh;
-      right: 0px;
+      margin-top: -45rem;
+    margin-left: 76rem;
   }
   .get-in-touch h1{
       text-transform: uppercase;
@@ -317,7 +323,7 @@
             position: relative;
           }
         .works-container img{
-            width:370px;
+            width: 370px;;
             object-fit:cover;
             object-position:bottom;
             padding: 8px;
@@ -427,7 +433,7 @@
           }
           .textongoing{
             float: left;
-            width: 38%;
+            width: 65ch;
             padding: 20px 0px 20px 20px;
             margin-right: 15px;
             flex-wrap: wrap;
@@ -549,26 +555,28 @@
             padding: 7px 7px;
         }
         .form-control{
-            background-color: transparent;
-    border-color: #000;
-    border-width: 1px;
-    border-style: solid;
+            background-color: transparent!important;
+   border: 1px solid #000!important;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border-top: none!important;
+    border-left: none!important;
+    border-right: none!important;
     color: #111;
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600!important;
     letter-spacing: 0;
-    text-transform: uppercase;
+    
     margin-top: 0;
     margin-bottom: 0;
+        }
+        .form-control:focus{
+            border: 1px solid #000!important;
+            outline: none;
         }
         .-form-control{
             font-family: FontAwesome;
@@ -704,8 +712,9 @@
             .phone{
                 display: contents;
             }
-            .phone .fa{
-                left: 103rem;
+            .phone .fa {
+                left: 42rem;
+                font-size: 2.5rem;
             }
             .fa-bars{
                 font-size: 2.5rem;
@@ -718,7 +727,7 @@
         
             }
             .phone-header .menu-btn:checked ~ .menu {
-                width: 96rem;
+             font-size: 1.5rem;
             }
             .header{
                 margin: 2rem auto;
@@ -730,33 +739,95 @@
             .branding{
                 display: flex;
                 justify-content: center;
-                width: 103rem;
+               
             }
             .branding img{
                 width: 30%;
             }
-            .image{
-                left: 73rem;
-                top: 66vh;
-            }
+           
             #showcase {
-                margin-top: 20rem!important;
+                margin-top: 7rem!important;
             }
-            .showcase-container img{
-                width: 200%;
-           margin-left: 6rem!important;
+            .showcase-container img {
+                margin-left: 1rem!important;
+                width: 100%;}
+           .image{
+                margin-left: 26rem;
+                margin-top: -24rem;
             }
-            
-
+            .get-in-touch {
+                margin-top: 0rem;
+            }
+            .get-in-touch h1 {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+            .services h3{
+                width: 20rem;
+            }
+            .service{
+                width: 52rem;
+                justify-content: flex-start;
+                padding: 0;
+            }
+            #about > .container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img, .webtheme img{
+                width: 100%;
+            }
+          .theme-container,  .ongoingtheme, .contacts{
+                flex-direction: column;
+                
+               
+            }
+            .textabout h3 {
+                font-size: 11vh;
+                padding-bottom : 2rem;
         }
+            .textongoing h3 {
+                font-size: 11vh;
+                padding-bottom : 2rem;
+        }
+            .textabout p{
+                padding-bottom: 2rem;
+            }
+            .work-container{
+                margin: 0;
+            }
+            .works-container img {
+                width: 214px;
+        }
+        .awards-list {
+            margin-left: 1.5rem!important;
+        }
+        .ongoingtheme img, .ongoing-container {
+            margin: 0!important;
+        }
+        .textongoing{
+            display: flex;
+    justify-content: flex-end;
+    margin-left: 10rem;
+    text-align: right;
+        }
+        .new-container{
+            width: 70%;
+            margin-left: 0!important;
+        }
+        .news-container img{
+            width: 17.5rem;
+        }
+
+    }
         @media screen and (max-width: 426px) {
             .phone{
                 display: contents;
             }
             .header{
                 margin: 2rem auto;
-                padding: 0;
+                
             }
+            .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+                padding: 0;
+            }  
+            
             .header nav{
                 display: none;
             }
@@ -795,6 +866,7 @@
            }
            .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
                flex-direction: column;
+               
               
            }
            .textongoing{
@@ -852,34 +924,75 @@
             .news-container p{
                 padding-bottom: 4rem;
             }
+        }
 
            
-        }
+       
         @media screen and (max-width:376px) {
-           .showcase-container, #awards, #news, #contact, footer{
-               margin-left: 1.5rem!important; 
+           .get-in-touch h1{
+               font-size: 5vh;
            }
-           .get-in-touch {
+           .branding img {
                 margin-left: 2.5rem!important;
            }
            .contact-text {
             padding: 0;
            }
-           .branding img{
-               margin-left: 4.5rem;
-           }
+           /* .branding img{
+               margin-left: .5rem;
+           } */
+           
+        .button_1 {
+            margin: 1rem auto
         }
+           .textongoing >  .button_1 {
+            margin: 1rem auto 1rem 7.5rem;
+        }
+        .textongoing{
+            padding: 1.25rem 0 0 0;
+        }
+        .works-container img {
+            width: 100%;
+           
+        }
+        .textongoing h3{
+            font-size: 2rem;
+            
+        }
+        .textongoing p{
+            width: 29ch;
+        }
+        .news-container img {
+            width: 100%;
+        }
+        .ongoingtheme img{
+            width: 89%!important;
+        }
+    }
+        
 
         @media screen and (max-width:321px) {
-            .showcase-container, #awards, #news, #contact, .get-in-touch,  footer{
-                width: 115%;
+           
+            #awards, #news, #contact,   footer{
+                max-width: 100%;
             }
             .get-in-touch{
                 margin-left: 1.5rem!important;
            }
-           #ongoing img{
-            margin-left: 4.5rem!important;
-           }
            
+           .button_1 {
+            margin: 1rem auto
+             }
+           .textongoing >  .button_1 {
+            margin: 1rem auto 1rem 6.5rem;
+            }
+            .textongoing h3{
+                font-size: 2rem;
+                text-align: center;
+            }
+            .textongoing p{
+                text-align: center;
+                /* margin-left: 0!important; */
+                width: 29ch;
+            }
         }
-       
