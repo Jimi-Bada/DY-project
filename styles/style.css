@@ -14,7 +14,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     overflow-x: hidden;
   
     }
@@ -642,6 +642,13 @@
           .separator{
               margin-bottom: 21px;
           }
+          .ongoingtheme, .nimage, #awards, #works {
+            margin-bottom: 6rem;
+ 
+        }
+        .n4{
+            display: none;
+        }
           /*footer*/
           footer{
               background-color: #f9f5f1 ;
@@ -708,7 +715,7 @@
                 font-size: 8vh;
             }
         } */
-        @media screen and (min-width:426px) and (max-width: 769px) {
+        @media screen and (min-width:426px) and (max-width: 1025px) {
             .phone{
                 display: contents;
             }
@@ -770,7 +777,7 @@
                 justify-content: flex-start;
                 padding: 0;
             }
-            #about > .container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img, .webtheme img{
+            #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img, .webtheme img{
                 width: 100%;
             }
           .theme-container,  .ongoingtheme, .contacts{
@@ -809,11 +816,18 @@
         }
         .new-container{
             width: 70%;
-            margin-left: 0!important;
+            margin-left: 7rem!important;
         }
-        .news-container img{
+        /* .news-container img{
             width: 17.5rem;
+        } */
+        .n3{
+            display: none;
         }
+        .n4{
+            display:block
+        }
+       
 
     }
         @media screen and (max-width: 426px) {
@@ -844,7 +858,7 @@
            .showcase-container img{
                width: 80%;
            }
-            #about > .container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+            #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
                width: 100%;
            }
            .textabout{
@@ -918,11 +932,15 @@
             .button_1{
                 margin: 1rem auto 1rem 11.5rem;
             }
+          
             .news-container h5{
                 padding: 2rem 0;
             }
             .news-container p{
                 padding-bottom: 4rem;
+            }
+            .n2, .n3{
+                margin-left: 1rem;
             }
         }
 
@@ -967,6 +985,9 @@
         }
         .ongoingtheme img{
             width: 89%!important;
+        }
+        .n2, .n3{
+            margin-left: 0;
         }
     }
         
