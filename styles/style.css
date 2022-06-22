@@ -176,11 +176,12 @@
 
  #showcase {
     margin-top: 12vh;
- } 
+ }
+ 
  #showcase img {
     display: block;
     margin:2rem  auto;
-}
+ }
     /* @-webkit-keyframes fadeInLeft {
      0%{
          opacity: 0;
@@ -715,7 +716,76 @@
                 font-size: 8vh;
             }
         } */
-        @media screen and (min-width:426px) and (max-width: 1025px) {
+        @media screen and (min-width: 901px) and (max-width:1025px) {
+            ul{
+                padding-left: 0!important;
+                margin-top: 0.5rem!important;
+            }
+            #showcase{
+                padding-top: 15vh;
+            }
+            .showcase-container img{
+                max-width: 70%;
+                margin: 0 0 0 2rem!important;
+            }
+            .image {
+                z-index: 2;
+                margin-top: -19rem;
+                margin-left: 41rem;
+                width: 50%;
+            }
+            .get-in-touch{
+                margin-top: 0rem;
+            }
+            .get-in-touch h1{ 
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+            .service{
+                    align-content: none;
+    padding-left: 0;
+    justify-content: none;
+    width: 105%;
+    margin: 9rem  auto;
+            }
+            .services{
+                padding: 0;
+            }
+            .theme-container{
+                width: 100%;
+            }
+            .webtheme {
+                width: 58%;
+                margin-top: -13rem;
+            }
+            .textabout h3, .textongoing h3{
+                font-size: 10vh
+            }
+            .work-container{
+                margin: 0;
+            }
+            .works-container img {
+                width: 320px;
+            }
+            .awards-list{
+                margin-left: 0!important;
+            }
+            .ongoingtheme img{
+                width: 60%;
+                margin: -40rem 0 0 20rem;
+                
+            }
+            .ongoing-container {
+                margin-left: 8rem;
+            }
+            .new-container {
+                margin: 0 auto;
+            }
+            .news-container img {
+                width: 20rem;
+            }
+        }
+        @media screen and (min-width:426px) and (max-width: 900px) {
             .phone{
                 display: contents;
             }
