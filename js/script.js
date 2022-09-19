@@ -1,23 +1,23 @@
 
-const scrollUp = document.querySelector('#back-to-top');
+// const scrollUp = document.querySelector('#back-to-top');
 
-const refreshButtonVisibility = () => {
-    if( document.documentElement.scrollTop < 150) {
-        scrollUp.style.display = "none"
-    }else{
-        scrollUp.style.display = "block"
-    }
-}
-refreshButtonVisibility();
-scrollUp.addEventListener('click' , () => {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+// const refreshButtonVisibility = () => {
+//     if( document.documentElement.scrollTop < 150) {
+//         scrollUp.style.display = "none"
+//     }else{
+//         scrollUp.style.display = "block"
+//     }
+// }
+// refreshButtonVisibility();
+// scrollUp.addEventListener('click' , () => {
+//     document.body.scrollTop = 0;
+//     document.documentElement.scrollTop = 0;
 
-});
-document,addEventListener('scroll', (e) => {
-   refreshButtonVisibility();
+// });
+// document,addEventListener('scroll', (e) => {
+//    refreshButtonVisibility();
 
-});
+// });
 // let lists = document.getElementsByClassName('lists');
 // let lis = "";
 // for(var i = 0; i < lists.length; i++){
@@ -86,21 +86,24 @@ function removeDoubleLine7(){
 function restoreHoverLine7(){
     seventhList.classList.add('lists')
 }
-function changeToActive() {
-    document.getElementById('li-1').style.cssText = 'border-bottom: 1px solid #111' 
-    document.getElementById('li-2').style.cssText = 'text-decoration: none'
-    document.getElementById('li-3').style.cssText = 'text-decoration: none'
-    document.getElementById('li-4').style.cssText = 'text-decoration: none'
-    document.getElementById('li-5').style.cssText = 'text-decoration: none'
-    document.getElementById('li-6').style.cssText = 'text-decoration: none'
-    document.getElementById('li-7').style.cssText = 'text-decoration: none'
-    removeDoubleLine1();
-    restoreHoverLine2();
-    restoreHoverLine3();
-    restoreHoverLine4();
-    restoreHoverLine5();
-    restoreHoverLine6();
-    restoreHoverLine7();
+var link_id = "li-1";
+
+function changeToActive(link_id) {
+    document.getElementById(link_id).classList.add('active');
+    // document.getElementById('li-1').style.cssText = 'border-bottom: 1px solid #111' 
+    // document.getElementById('li-2').style.cssText = 'text-decoration: none'
+    // document.getElementById('li-3').style.cssText = 'text-decoration: none'
+    // document.getElementById('li-4').style.cssText = 'text-decoration: none'
+    // document.getElementById('li-5').style.cssText = 'text-decoration: none'
+    // document.getElementById('li-6').style.cssText = 'text-decoration: none'
+    // document.getElementById('li-7').style.cssText = 'text-decoration: none'
+    // removeDoubleLine1();
+    // restoreHoverLine2();
+    // restoreHoverLine3();
+    // restoreHoverLine4();
+    // restoreHoverLine5();
+    // restoreHoverLine6();
+    // restoreHoverLine7();
     
     // lis.style.textDecoration = "none"
     // getElementsById('li-1 li-2 li-3 li-4 li-5 li-6 li-7').style.textDecoration = 'none'

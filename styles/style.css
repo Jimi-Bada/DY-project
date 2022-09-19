@@ -18,11 +18,11 @@
     overflow-x: hidden;
   
     }
-    #back-to-top.show {
+    .back-to-top.show {
         opacity: 1;
         visibility: visible;
     }
-    #back-to-top {
+    .back-to-top {
         display: inline-block;
         background-color: #fff;
         width: 3.25rem;
@@ -33,19 +33,19 @@
         bottom: 30px;
         right: 30px;
         transition: background-color .3s, opacity .5s, visibility .5s;
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+      
         z-index: 1000;
         border: 2px solid #111;
     } 
-    #back-to-top:hover{
+    .back-to-top:hover{
         background-color: #111;
     }
-    #back-to-top i:hover{
+    .back-to-top i:hover{
         color: #fff;
     }
 
-    #back-to-top i {
+    .back-to-top i {
         font-weight: 700;
         font-size: 2.5rem;
         line-height: 40px;
