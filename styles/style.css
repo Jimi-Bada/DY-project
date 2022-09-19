@@ -653,7 +653,7 @@
             margin-right: 20px;
           }
           .contact-text p a{
-            color: #686868;
+            color: #686868!important;
             font-family: roboto,sans-serif;
             font-size: 16px;
             line-height: 27px;
@@ -663,7 +663,7 @@
             text-transform: none;
             margin: 0px;
             margin-right: 20px;
-            text-decoration: none;
+            text-decoration: none!important;
           }
           .separator{
               margin-bottom: 21px;
