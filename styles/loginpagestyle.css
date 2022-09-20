@@ -160,6 +160,8 @@ body{
 .footer-links ul{
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .footer-links li a{
     color: #3c4043;
@@ -178,8 +180,6 @@ body{
     }
     .footer-links ul{
        flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: center;
        line-height: 20px;
     }
     .footer-links li a{
@@ -200,6 +200,9 @@ body{
         line-height: 52px;
         letter-spacing: -0.8px;
         margin: 40px 0;
+    }
+    .big-twitter-icon-container{
+        max-height: 260px;
     }
 
     

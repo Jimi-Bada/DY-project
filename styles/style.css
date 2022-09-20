@@ -810,7 +810,8 @@
                 width: 20rem;
             }
         }
-        @media screen and (min-width:426px) and (max-width: 900px) {
+        
+        @media screen and (min-width:751px) and (max-width: 900px) {
             .phone{
                 display: contents;
             }
@@ -925,7 +926,7 @@
        
 
     }
-        @media screen and (max-width: 426px) {
+        @media screen and (max-width: 502px) {
             .phone{
                 display: contents;
             }
@@ -1037,6 +1038,814 @@
             .n2, .n3{
                 margin-left: 1rem;
             }
+
+        }
+        @media screen and (min-width:502px) and (max-width:557px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 18ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 47ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 16.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
+        }
+        @media screen and (min-width:557px) and (max-width:590px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 18ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 47ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 16.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
+        }
+        @media screen and (min-width:590px) and (max-width:627px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 21ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 57ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 22.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
+        }
+        @media screen and (min-width:627px) and (max-width:660px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 18ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 47ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 16.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
+        }
+        
+        @media screen and (min-width:689px) and (max-width:730px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 24ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 68ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 28.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
+        }
+        
+        @media screen and (min-width:660px) and (max-width:689px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 24ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 65ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 26.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
+        }
+        @media screen and (min-width:730px) and (max-width:751px)  {
+        
+         .phone{
+            display: contents;
+        }
+        .header{
+            margin: 2rem auto;
+            
+        }
+        .header,  .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts, .services{
+            padding: 0;
+        }  
+        
+        .header nav{
+            display: none;
+        }
+        .branding{
+            display: flex;
+            justify-content: center;
+        }
+        .image{
+            left: 73rem;
+        }
+       .showcase-container .image{
+           display: none;
+       }
+       .showcase-container img{
+           width: 80%;
+       }
+        #about > .about-container > img, .textabout, .worksimg, #awards img, #ongoing img, .nimage, #contact img{
+           width: 100%;
+       }
+       .textabout{
+           padding-left: 20px;
+       }
+       .textabout h3, .textabout p{
+        margin-bottom: 2rem;
+       }
+       
+       .textabout h3{
+           font-size: 2.44rem;
+          
+       }
+       .webtheme img{
+           width: 100%;
+       }
+       .phone .fa{
+           display: none;
+       }
+       .service, .theme-container, .work-container, .new-container, .ongoingtheme, .contacts{
+           flex-direction: column;
+           
+          
+       }
+       .textongoing{
+           float: none;
+       }
+       /* .work-container{
+           margin: 0;
+       } */
+       .get-in-touch,   .work-container, .awards-list, .ongoing-container, .ongoingtheme, .ongoingtheme img, .awards-list, .new-container, .news-container img, #contact{
+           margin: 0 auto!important;
+           
+       }
+       .awards-list{
+           margin-top: 2rem!important;
+       }
+       .get-in-touch h1{
+           margin-top: 0;
+       }
+        .get-in-touch p{
+           width: 25ch;
+           margin: 0 auto;
+        }
+       .service h2{
+           font-size: 2.5rem;
+       }
+       .service h3{
+           margin: 0!important;
+           font-size: 1.5rem;
+           width: 20ch;
+        }
+        .textongoing h3{
+            width: 26ch;
+            line-height: 2.75rem;
+            font-size: 2.5rem;
+            font-family: poppins, sans-serif;
+            text-align: end;
+        }
+        .textongoing p{
+            width: 72ch;
+            color: #686868;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            line-height: 27px;
+            font-style: normal;
+            font-weight: 300;
+            text-align: end;
+            margin: 2rem 0 2rem 2rem;
+        }
+        .button_1{
+            margin: 1rem auto 1rem 31.5rem;
+        }
+      
+        .news-container h5{
+            padding: 2rem 0;
+        }
+        .news-container p{
+            padding-bottom: 4rem;
+        }
+        .n2, .n3{
+            margin-left: 1rem;
+        }
+
         }
 
            
@@ -1083,6 +1892,38 @@
         }
         .n2, .n3{
             margin-left: 0;
+        }
+    }
+    
+    @media screen and (min-width:326px) and (max-width: 376px) {
+        .button_1{
+            margin: 1rem auto 1rem 9rem;
+        }
+        .phone-header ul{
+            left: 0.25rem;
+        }
+        .textongoing{
+            padding: 20px 0!important;
+        }
+        .textongoing p{
+            margin-left: 3rem!important;
+        }
+    }
+    @media screen and (min-width:376px) and (max-width: 420px) {
+        .button_1{
+            margin: 1rem auto 1rem 9rem;
+        }
+        .phone-header ul{
+            left: 0.25rem;
+        }
+        .textongoing{
+            padding: 20px 0!important;
+        }
+        .textongoing p{
+            margin-left: 0rem!important;
+        }
+        .textongoing h3{
+            width: 14ch;
         }
     }
         
