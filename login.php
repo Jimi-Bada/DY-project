@@ -145,5 +145,29 @@
         </div>
       </div>
     </section>
+    <section class="modal">
+      <div class="modal-container">
+          <form action="registration.php" method="post" class="signup-form">
+            <p>Let's get Started</p>
+            <input type="text" name="fname" id="" placeholder="Full Name"required><br>    
+            <input type="text" name="username" id="" placeholder="Username" required=""><br>    
+            <input type="email" name="email" id="" placeholder="Email" required=""><br>
+            <input type="password" name="password" id="" placeholder="Enter strong Password" required=""><br>
+            <input type="password" name="cpassword" id="" placeholder="Confirm Password"required=""><br>
+            <button type="submit" value="submit" class="modal-signup-btn">Sign Up</button>
+            <button type="button" class="close-modal-btn">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </form>
+        <div class="drops">
+          <div class="drop drop-1"></div>
+          <div class="drop drop-2"></div>
+          <div class="drop drop-3"></div>
+          <div class="drop drop-4"></div>
+          <div class="drop drop-5"></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/loginjs.js"></script>
   </body>
 </html>
